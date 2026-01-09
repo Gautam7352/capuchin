@@ -12,7 +12,7 @@ function App() {
   const [inputValue, setInputValue] = useState("")
   const [loading, setLoading] = useState(true)
 
-  const API_URL = "http://localhost:8080/todos"
+  const API_URL = "https://pc.taila7490e.ts.net/todos"
 
   useEffect(() => {
     fetch(API_URL)
